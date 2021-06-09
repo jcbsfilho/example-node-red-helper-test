@@ -3,7 +3,7 @@
 This is the example of Node-red unit and integration tests, based on the module node-red-node-test-helper.
 
 
-This example was made based on the `node-red-node-test-helper` module and there is a fork for the `github:jcbsfilho/node-red-node-test-helper` module. A tweak was made to httpNode to expose http in routes.
+This example was made based on the `node-red-node-test-helper` module and there is a fork for the `github module:jcbsfilho/node-red-node-test-helper` and made a change to expose httpin in routes.
 
 Link to module [node-red-node-test-helper](https://www.npmjs.com/package/node-red-node-test-helper).
 
