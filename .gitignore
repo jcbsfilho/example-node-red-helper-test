@@ -112,3 +112,6 @@ lib/
 
 # config files
 .config*
+
+# package lock
+package-lock.json
