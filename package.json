@@ -15,8 +15,7 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "node-red-node-test-helper": "github:jcbsfilho/node-red-node-test-helper",
     "mocha": "^9.0.0",

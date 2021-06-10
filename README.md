@@ -11,11 +11,11 @@ Dependencies `package.json` file:
 
 ```json
 ...
-  "dependencies": {
-    "node-red": "^1.3.5"
-  },
+
   "devDependencies": {
-    "node-red-node-test-helper": "github:jcbsfilho/node-red-node-test-helper"
+    "node-red-node-test-helper": "github:jcbsfilho/node-red-node-test-helper",
+    "mocha": "^9.0.0",
+    "node-red": "^1.3.5"
   }
 ...
 ```
