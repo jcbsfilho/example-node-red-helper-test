@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "This is the example of Node-red unit and integration tests, based on the module node-red-node-test-helper.",
   "scripts": {
-    "test": "mocha \"./test/**/*.spec.js\"",
-    "test-unit": "mocha \"./test/unit/*.spec.js\"",
-    "test-integration": "mocha \"./test/integration/*.spec.js\"",
+    "test": "mocha --file ./test/**/*.spec.js",
+    "test-unit": "mocha --file ./test/unit/*.spec.js",
+    "test-integration": "mocha --file ./test/integration/*.spec.js",
     "start": "node $NODE_OPTIONS node_modules/node-red/red.js ./flows/flows.json -u ./"
   },
   "keywords": [
@@ -19,6 +19,7 @@
     "node-red": "^1.3.5"
   },
   "devDependencies": {
-    "node-red-node-test-helper": "github:jcbsfilho/node-red-node-test-helper"
+    "node-red-node-test-helper": "github:jcbsfilho/node-red-node-test-helper",
+    "mocha": "^9.0.0"
   }
 }
